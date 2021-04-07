@@ -1,0 +1,10 @@
+cycles: 100000
+save_epochs: 100
+reset_train: 100
+batch_size: 64
+lstm_out: 512
+new_model: False
+path: models
+model_name: model_bidir
+char_to_display: 140
+seq_length: 2
