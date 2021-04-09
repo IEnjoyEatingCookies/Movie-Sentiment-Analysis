@@ -197,10 +197,12 @@ model_name = 'Naive'
 # generate_set_naive(_unlabeled)
 generate_naive(False)
 
+generate = True
 # Generate Text
-# while True:
-#     input('\nPress Enter to Generate Review:\n')
-#     txt = gen.generate_text(4, 20)
-#     stars = predict(txt)
-#     print(stars)
-#     print(txt)
+if generate:
+    while True:
+        input('\nPress Enter to Generate Review:\n')
+        txt = gen.generate_text(4, 20)
+        stars = predict(txt)
+        print(stars)
+        print(txt)

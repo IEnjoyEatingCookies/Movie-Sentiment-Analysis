@@ -1,7 +1,6 @@
 import os
 import nltk
 import random
-import re
 import sys
 import json
 import os
